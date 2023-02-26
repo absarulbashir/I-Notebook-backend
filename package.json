@@ -1,0 +1,28 @@
+{
+  "name": "i-notebook-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/absarulbashir/I-Notebook-backend.git"
+  },
+  "author": "absar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/absarulbashir/I-Notebook-backend/issues"
+  },
+  "homepage": "https://github.com/absarulbashir/I-Notebook-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0"
+  }
+}
