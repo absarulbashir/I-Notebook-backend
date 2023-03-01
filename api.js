@@ -182,7 +182,7 @@ app.post("/api/auth/deletenote",(req,res)=>{
 
 app.get("/",(req,res)=>{
     res.status(200);
-    res.send("<h2>Welcome to I-Notebook backend</h2>");
+    res.send("<h1>Welcome to I-Notebook backend</h1>");
 })
 
 //Listening to the port 4000...
