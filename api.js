@@ -180,7 +180,10 @@ app.post("/api/auth/deletenote",(req,res)=>{
 });
 //END DELETE ...
 
-
+app.get("/",(req,res)=>{
+    res.status(200);
+    res.send("<h2>Welcome to I-Notebook backend</h2>");
+})
 
 //Listening to the port 4000...
 app.listen(process.env.PORT||5000,()=>{
