@@ -18,7 +18,7 @@ client.connect().catch(()=>{
   // perform actions on the collection object
   client.close();
 }).then(()=>{
-    console.log("connected");
+    console.log("c");
 })
 
 const db = client.db("MERN");
@@ -187,5 +187,5 @@ app.get("/",(req,res)=>{
 
 //Listening to the port 4000...
 app.listen(process.env.PORT||5000,()=>{
-    console.log("Listening at port 5000");
+    console.log(`Listening at port ${process.env.PORT || "5000"}`);
 })
